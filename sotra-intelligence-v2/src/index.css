@@ -243,27 +243,30 @@ img {
 @media(max-width:900px){
 
   .navbar {
-    padding: 0 20px;
+    padding: 0 15px;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 80px;
   }
 
   .nav-links {
-    display: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
   }
 
   .logo-text {
     font-size: 1.1rem;
   }
 
-  .why {
-    padding: 50px 20px;
+  .consult-btn {
+    display: none;
   }
-
-  .cta {
-    padding: 60px 20px;
-  }
-
-  .footer-container {
-    padding: 25px 20px;
-  }
-
 }
