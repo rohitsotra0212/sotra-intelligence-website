@@ -293,6 +293,87 @@ img {
 }
 
 /* ========================================
+   HAMBURGER MENU
+======================================== */
+
+.hamburger {
+  display: none;
+
+  background: transparent;
+  border: none;
+
+  color: white;
+
+  font-size: 28px;
+
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 900px) {
+
+  .navbar {
+    padding: 0 20px;
+    position: relative;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .desktop-btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+  .mobile-menu {
+
+    position: absolute;
+
+    top: 80px;
+    left: 0;
+
+    width: 100%;
+
+    background: #081224;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    border-top:
+      1px solid rgba(255,255,255,.08);
+
+    z-index: 999;
+  }
+
+  .mobile-menu a {
+
+    color: white;
+
+    padding: 12px 0;
+
+    border-bottom:
+      1px solid rgba(255,255,255,.08);
+  }
+}
+
+/* ========================================
    MOBILE RESPONSIVE
 ======================================== */
 
