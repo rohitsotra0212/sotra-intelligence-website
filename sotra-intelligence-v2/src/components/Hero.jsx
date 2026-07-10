@@ -1,4 +1,4 @@
-import logo from "../assets/logo.PNG";
+import logo from "../assets/logo.png";
 import dashboard from "../assets/admin-dashboard.JPG";
 import { Link } from "react-router-dom";
 import "../style/hero.css";
