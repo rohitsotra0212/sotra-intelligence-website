@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://sotra-intelligence-website.vercel.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://sotra-intelligence-website.vercel.app/services</loc>
+  </url>
+
+  <url>
+    <loc>https://sotra-intelligence-website.vercel.app/solutions</loc>
+  </url>
+
+  <url>
+    <loc>https://sotra-intelligence-website.vercel.app/case-study</loc>
+  </url>
+
+  <url>
+    <loc>https://sotra-intelligence-website.vercel.app/about</loc>
+  </url>
+
+  <url>
+    <loc>https://sotra-intelligence-website.vercel.app/contact</loc>
+  </url>
+
+</urlset>
