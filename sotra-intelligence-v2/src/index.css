@@ -39,7 +39,6 @@ img {
 
 .navbar {
   height: 80px;
-
   padding: 0 60px;
 
   display: flex;
@@ -109,6 +108,27 @@ img {
 }
 
 /* ========================================
+   HAMBURGER MENU
+======================================== */
+
+.hamburger {
+  display: none;
+
+  background: transparent;
+  border: none;
+
+  color: white;
+
+  font-size: 30px;
+
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* ========================================
    WHY CHOOSE US
 ======================================== */
 
@@ -160,6 +180,42 @@ img {
   color: #94a3b8;
   line-height: 1.6;
   font-size: 0.95rem;
+}
+
+/* ========================================
+   CTA
+======================================== */
+
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  max-width: 700px;
+  margin: auto;
+
+  color: #94a3b8;
+
+  line-height: 1.8;
+}
+
+.cta button {
+  margin-top: 25px;
+
+  background: #2563eb;
+  color: white;
+
+  padding: 14px 30px;
+
+  border-radius: 10px;
+
+  font-weight: 600;
 }
 
 /* ========================================
@@ -237,7 +293,7 @@ img {
 }
 
 /* ========================================
-   MOBILE
+   MOBILE RESPONSIVE
 ======================================== */
 
 @media(max-width:900px){
@@ -262,8 +318,53 @@ img {
     font-size: 13px;
   }
 
+  .desktop-btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
   .logo-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+
+  .nav-logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .mobile-menu {
+
+    position: absolute;
+
+    top: 80px;
+    left: 0;
+
+    width: 100%;
+
+    background: #081224;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    border-top:
+      1px solid rgba(255,255,255,.08);
+
+    z-index: 999;
+  }
+
+  .mobile-menu a {
+
+    color: white;
+
+    padding: 14px 0;
+
+    border-bottom:
+      1px solid rgba(255,255,255,.08);
   }
 
   .consult-btn {
