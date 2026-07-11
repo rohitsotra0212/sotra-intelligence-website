@@ -31,7 +31,7 @@ function Footer() {
           <h3>Contact</h3>
 
           <p>
-            📧 rohit.sotra0212@gmail.com
+            📧 contact@sotraintelligence.com
             <br />
             📱 +91-9650278557
           </p>
