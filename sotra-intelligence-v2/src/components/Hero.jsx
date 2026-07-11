@@ -27,9 +27,11 @@ function Hero() {
 
         <div className="hero-buttons">
 
-          <button className="primary-btn">
-            Schedule Free AI Assessment
-          </button>
+          <Link to="/contact">
+            <button className="primary-btn">
+              Schedule Free AI Assessment
+            </button>
+          </Link>
 
           <Link to="/case-study">
             <button className="secondary-btn">

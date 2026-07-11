@@ -7,7 +7,7 @@ function WhyChooseUs() {
       <div className="why-grid">
 
         <div className="box">
-          <h3>13+ Years Experience</h3>
+          <h3>14 Years IT Experience</h3>
           <p>
             Enterprise software delivery across multiple industries.
           </p>
