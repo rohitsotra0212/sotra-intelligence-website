@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import PageHero from "../components/PageHero";
 import { Link } from "react-router-dom";
 
+import login from "../assets/LoginPage.JPG";
 import dashboard from "../assets/admin-dashboard.JPG";
 import emailProcessor from "../assets/email-processor.JPG";
 import financeDashboard from "../assets/finance-dashboard.JPG";
@@ -126,6 +127,25 @@ function CaseStudy() {
             </div>
 
           </div>
+
+        </section>
+
+        {/* LOGIN */}
+
+        <section className="screenshots">
+
+          <h2>Login Window</h2>
+
+          <img
+            src={login}
+            alt="Login Window"
+          />
+
+          <p>
+            Unified login experience for users, administrators
+            and finance teams with secure authentication and
+			      role-based access control.
+          </p>
 
         </section>
 
