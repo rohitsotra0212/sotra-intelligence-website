@@ -31,12 +31,14 @@ function Footer() {
           <h3>Contact</h3>
 
           <p>
-            📧 rohit.sotra0212@gmail.com
+            📧 rohit.sotra0212@gmail.com 📱 +91-9650278557
           </p>
 
-          <p>
-            📱 +91-9650278557 🔗 LinkedIn
-          </p>
+          <Link to="https://www.linkedin.com/in/rohit-sotra-5a1120126/">
+            <p>
+              🔗 LinkedIn
+            </p>
+          </Link>
 
         </div>
 
