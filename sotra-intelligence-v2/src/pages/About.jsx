@@ -9,109 +9,6 @@ function About() {
 
       <div className="about-page">
 
-        {/* HERO */}
-
-        <section className="about-hero">
-
-          <span className="about-tag">
-            Founder & Lead AI Engineer
-          </span>
-
-          <h1>
-            Rohit Sotra
-          </h1>
-
-          <p>
-            Building enterprise-grade AI systems that
-            automate business operations, improve customer
-            experience, and drive measurable business outcomes.
-          </p>
-
-        </section>
-
-        {/* STATS */}
-
-        <section className="stats-section">
-
-          <div className="stat-card">
-            <h2>14</h2>
-            <p>Years IT Experience</p>
-          </div>
-
-          <div className="stat-card">
-            <h2>5</h2>
-            <p>Years GenAI Experience</p>
-          </div>
-
-          <div className="stat-card">
-            <h2>20+</h2>
-            <p>Enterprise Projects</p>
-          </div>
-
-          <div className="stat-card">
-            <h2>2000+</h2>
-            <p>LinkedIn Network</p>
-          </div>
-
-        </section>
-
-        {/* FOUNDER */}
-
-        <section className="founder-section">
-
-          <div className="founder-card">
-
-            <div className="founder-content">
-
-              <span className="founder-tag">
-                Founder & Lead AI Engineer
-              </span>
-
-              <h2>
-                Rohit Sotra
-              </h2>
-
-              <p>
-                AI Consultant, Solution Architect and Lead Engineer
-                with 14+ years of experience delivering enterprise
-                applications, workflow automation solutions and
-                Generative AI platforms.
-              </p>
-
-              <div className="founder-highlights">
-
-                <div className="highlight">
-                  ✓ 14+ Years Enterprise Experience
-                </div>
-
-                <div className="highlight">
-                  ✓ Agentic AI & LangGraph Specialist
-                </div>
-
-                <div className="highlight">
-                  ✓ Enterprise RAG Architect
-                </div>
-
-                <div className="highlight">
-                  ✓ FastAPI & React Solutions
-                </div>
-
-                <div className="highlight">
-                  ✓ OpenAI & LLM Applications
-                </div>
-
-                <div className="highlight">
-                  ✓ Workflow Automation Expert
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>        
-
         {/* STORY */}
 
         <section className="story-section">
@@ -214,7 +111,65 @@ function About() {
 
         </section>
 
+        {/* FOUNDER */}
+
+        <section className="founder-section">
+
+          <div className="founder-card">
+
+            <div className="founder-content">
+
+              <span className="founder-tag">
+                Founder & Lead AI Engineer
+              </span>
+
+              <h2>
+                Rohit Sotra
+              </h2>
+
+              <p>
+                AI Consultant, Solution Architect and Lead Engineer
+                with 14+ years of experience delivering enterprise
+                applications, workflow automation solutions and
+                Generative AI platforms.
+              </p>
+
+              <div className="founder-highlights">
+
+                <div className="highlight">
+                  ✓ 14+ Years Enterprise Experience
+                </div>
+
+                <div className="highlight">
+                  ✓ Agentic AI & LangGraph Specialist
+                </div>
+
+                <div className="highlight">
+                  ✓ Enterprise RAG Architect
+                </div>
+
+                <div className="highlight">
+                  ✓ FastAPI & React Solutions
+                </div>
+
+                <div className="highlight">
+                  ✓ OpenAI & LLM Applications
+                </div>
+
+                <div className="highlight">
+                  ✓ Workflow Automation Expert
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>        
+
       </div>
+
       <Footer />
     </>
   );
