@@ -78,7 +78,7 @@
 /* STORY */
 
 .story-section {
-  padding: 100px 80px;
+  padding: 60px 80px 20px;
 
   text-align: center;
 }
@@ -101,7 +101,7 @@
 /* EXPERTISE */
 
 .expertise-section {
-  padding: 100px 80px;
+  padding: 20px 80px 100px;
 }
 
 .expertise-section h2 {
@@ -135,7 +135,7 @@
 /* INDUSTRY */
 
 .industry-section {
-  padding: 100px 80px;
+  padding: 20px 80px 100px;
 }
 
 .industry-section h2 {
