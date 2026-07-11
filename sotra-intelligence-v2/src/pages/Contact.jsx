@@ -11,6 +11,7 @@ function Contact() {
         form_name: "contact_form",
         business: "Sotra Intelligence"
       });
+      console.log("generate_lead event sent");
     }
 
   };
