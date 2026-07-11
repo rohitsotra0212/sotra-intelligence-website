@@ -8,7 +8,7 @@
 .services-hero {
   text-align: center;
 
-  padding: 120px 40px 80px;
+  padding: 80px 40px 30px;
 }
 
 .services-tag {
@@ -57,7 +57,7 @@
 
   gap: 30px;
 
-  padding: 80px;
+  padding: 20px 80px 80px;
 }
 
 .service-card {
@@ -106,7 +106,7 @@
 /* PRICING */
 
 .pricing {
-  padding: 100px 80px;
+  padding: 20px 80px 100px;
 }
 
 .pricing h2 {
@@ -153,7 +153,7 @@
 }
 .page-hero {
   text-align: center;
-  padding: 120px 40px 80px;
+  padding: 80px 40px 30px;
 }
 
 .page-tag {
