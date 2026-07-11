@@ -3,6 +3,18 @@ import Footer from "../components/Footer";
 import "../style/contact.css";
 
 function Contact() {
+
+  const handleSubmit = () => {
+
+    if (window.gtag) {
+      window.gtag("event", "generate_lead", {
+        form_name: "contact_form",
+        business: "Sotra Intelligence"
+      });
+    }
+
+  };
+
   return (
     <>
       <Navbar />
@@ -38,6 +50,7 @@ function Contact() {
             <form
               action="https://formspree.io/f/xkoldzky"
               method="POST"
+              onSubmit={handleSubmit}
             >
 
               <input
@@ -94,13 +107,9 @@ function Contact() {
             <div className="contact-services">
 
               <div>✓ Agentic AI Solutions</div>
-
               <div>✓ Enterprise RAG</div>
-
               <div>✓ Workflow Automation</div>
-
               <div>✓ AI Consulting</div>
-
               <div>✓ LangGraph Solutions</div>
 
             </div>
