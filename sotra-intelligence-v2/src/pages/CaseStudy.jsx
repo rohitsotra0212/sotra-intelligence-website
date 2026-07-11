@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import PageHero from "../components/PageHero";
+import { Link } from "react-router-dom";
 
 import dashboard from "../assets/admin-dashboard.JPG";
 import emailProcessor from "../assets/email-processor.JPG";
@@ -295,9 +296,11 @@ function CaseStudy() {
             Interested In Similar AI Automation?
           </h2>
 
-          <button>
-            Schedule Consultation
-          </button>
+          <Link to="/contact">
+            <button>
+              Schedule Consultation
+            </button>
+          </Link>
 
         </section>
 
