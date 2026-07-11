@@ -121,7 +121,7 @@ function Contact() {
 
               <p>
                 <a href="mailto:contact@sotraintelligence.com">
-                  rohit.sotra0212@gmail.com
+                  contact@sotraintelligence.com
                 </a>
               </p>
 
